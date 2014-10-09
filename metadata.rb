@@ -8,6 +8,7 @@ version          '1.4.0'
 
 recipe "golang", "Installs go programing language."
 recipe "golang::packages", "Installs go packages and SCM requirements."
+recipe "golang::uninstall", "UninstallsInstalls go packages."
 
 supports 'debian'
 supports 'ubuntu'
